@@ -1,0 +1,30 @@
+name: monitor_pressao
+description: Aplicativo para monitoramento de pressão arterial.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  path_provider: ^2.1.1
+  syncfusion_flutter_xlsio: ^24.2.9
+  fl_chart: ^0.64.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/heart.png
+
